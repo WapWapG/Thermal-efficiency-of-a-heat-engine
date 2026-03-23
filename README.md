@@ -1,2 +1,3 @@
-# Thermal-efficiency-of-a-heat-engine
-this is my first program on c++
+Это моя первая программа на c++, написал основываясь на формуле из физики. Мог допустить ошибку. 
+для компиляции используйте: 
+g++ main.cpp -o main
