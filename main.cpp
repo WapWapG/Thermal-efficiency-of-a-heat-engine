@@ -24,6 +24,7 @@ int main(){
         cin >> Q2;
         //Расчет A
         A = Q1 - Q2;
+        cout << A;
     }
 
     cout << "Введите A";
