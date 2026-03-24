@@ -34,7 +34,7 @@ int main(){
     cin >> Q1;
 
     //Вычисление по формуле
-    otvet = A/Q1;
+    otvet = A/Q1*100;
     cout << otvet;
     cout << "\n";
 }
