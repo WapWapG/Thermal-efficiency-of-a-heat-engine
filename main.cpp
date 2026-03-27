@@ -4,19 +4,20 @@ using namespace std;
 int main(){
     //Буду использовать формулу n=A/Q1.
     //Инициализирую переменные
-    int Q1;
-    int Q2;
-    int A;
-    int otvet;
+    float Q1;
+    float Q2;
+    float A;
+    float otvet;
 
 
     string question;
+    cout << "Made by WapWapG\n";
     cout << "Это программа для вычисления КПД теплового двигателя\n";
     cout << "Вам известно A?: ";
     cin >> question;
 
     //Проверка на известность A
-    if (question == "Нет"){
+    if (question == "Нет" || question == "нет"){
         //Получение значений для вычисления A
         cout << "Введите значение Q1: ";
         cin >> Q1;
